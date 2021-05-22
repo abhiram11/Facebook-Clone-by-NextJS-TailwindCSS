@@ -1,4 +1,6 @@
 import Image from "next/image";
+import HeaderIcon from "/components/HeaderIcon";
+
 import {
   BellIcon,
   ChatIcon,
@@ -37,6 +39,16 @@ function Header() {
       </div>
 
       {/* CENTER */}
+      <div className="flex justify-center flex-grow">
+        <div className="flex space-x-6 md:space-x-2">
+          <HeaderIcon Icon={HomeIcon} />
+          <HeaderIcon Icon={FlagIcon} />
+          <HeaderIcon Icon={PlayIcon} />
+          <HeaderIcon Icon={ShoppingCartIcon} />
+          <HeaderIcon Icon={UserGroupIcon} />
+        </div>
+      </div>
+
       {/* RIGHT */}
     </div>
   );

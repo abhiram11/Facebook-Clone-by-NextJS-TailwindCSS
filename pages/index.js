@@ -8,6 +8,8 @@ import Header from "../components/Header";
 // also gives secuirty measures for <Image />, tell nextjs what domains are allowed
 // 28:00 tailwind into action ! using css features in className itself!
 // 38:30 color comes in shades... so className="flex text-gray-600" will be DARKER than gray-200
+// 44:48 space between components inside a flex by "flex space-x-6" or any other number based on reqmt,
+// for smaller/bigger? screens use md:space-x-2, md is media/medium? big devices which can also be used for hover etc
 
 export default function Home() {
   return (
