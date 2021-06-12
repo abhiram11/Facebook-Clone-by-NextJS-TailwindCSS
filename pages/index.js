@@ -1,6 +1,8 @@
 import Head from "next/head";
 import Header from "../components/Header";
 
+// 04:30 DIFFERENCE BETWEEN TAILWIND AND BOOTSTRAP... bootstrap requires extra read on responsiveness of bootstrap
+// tailwind will handle the responsiveness that we need in the app
 // 11:50 purge in tailwind.config.js will help tailwind to work in nextjs
 // telling important folders to cleanup/purge for tailwind
 // 12:31 tailwind.config: node : "jit"
